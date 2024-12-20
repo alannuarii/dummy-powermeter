@@ -1,0 +1,7 @@
+CREATE TABLE power_data (
+    id SERIAL PRIMARY KEY,
+    active_power FLOAT,
+    reactive_power FLOAT,
+    power_factor FLOAT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
